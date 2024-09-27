@@ -21,43 +21,43 @@ int main ()
 
 
 
-  do
-{
-  printf("Dame los numeros:\n");
-  printf("numero 1: ");
-  scanf("&d", &a);
-  printf("numero 2: ");
-  scanf("&d" , &b);
+      do
+    {
+      printf("Dame los numeros:\n");
+      printf("numero 1: ");
+      scanf("&d", &a);
+      printf("numero 2: ");
+      scanf("&d" , &b);
 
-  switch (option)
-{
-case 1:
-  operation = a + b;
-  break;
-case 2:
-  operation = a - b;
-  break;
-case 3:
-  operation = a * b;
-  break;
-case 4:
-  operation = a / b;
-  break;
-}
+      switch (option);
+      {
+        case 1:
+          operation = a + b;
+          break;
+        case 2:
+          operation = a - b;
+          break;
+        case 3:
+          operation = a * b;
+          break;
+        case 4:
+          operation = a / b;
+          break;
+      }
 
-printf("el resultado de la operacion es: %d\n", operation);
+      printf("el resultado de la operacion es: %d\n", operation);
 
-printf("deseas realizar otra operacion: \n");
-printf("1 .- Suma\n");
-printf("2 .- Resta\n");
-printf("3 .- Multiplicacion\n");
-printf("4 .- Division\n");
-printf("deseas salir: \n");
-printf("-1 .-Salir\n");
-scanf("%d", &option);
-}
-while (option != -1);
+      printf("deseas realizar otra operacion: \n");  
+      printf("1 .- Suma\n");
+      printf("2 .- Resta\n");
+      printf("3 .- Multiplicacion\n");
+      printf("4 .- Division\n");
+      printf("deseas salir: \n");
+      printf("-1 .-Salir\n");
+      scanf("%d", &option);
+    }
+  while (option != -1);
 
-return 0;
+  return 0;
 }
     
